@@ -1,0 +1,24 @@
+# Local builds and dependencies
+/work/
+/build/
+CMakeUserPresets.json
+compile_commands.json
+
+# Packaged binaries
+*.plugin/
+*.zip
+*.dmg
+*.pkg
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# OBS plugin template build output
+/.deps/
+/.ccache/
+/build_*/
+/release/
+/cmake/.CMakeBuildNumber
